@@ -4,30 +4,64 @@ body{
 }
 
 .main{
-    display: flex;
-    flex-direction: row;
     padding: 20px;
-    justify-content: center;
-    align-items: center;
+    border: 3px solid lightgreen;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 
 .main div{
     margin-left: 20px;
 }
 
+.match-color{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.score{
+    margin: 0px auto;
+}
+.row-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 .balloon {
     display:inline-block;
-     width:120px;
-    height:150px;
+     width:100px;
+    height:130px;
     border-radius:80%;
     position:relative;
     box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
-    margin:20px 30px;
+    margin:15px 50px;
     z-index:10;
     cursor: pointer;
     border: black;
+
   }
 
   .balloon:before {
@@ -42,23 +76,10 @@ body{
     z-index:-100;
   }
 
-.main-btn{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    padding: 10px 60px;
-    font-size: 20px;
-    text-transform: uppercase;
-
-}
-
 
 #matchColor{
     border: 2px solid black;
-    padding: 10px 20px;
+    padding: 4px 18px;
     margin-left: 10px;
 }
 
