@@ -5,33 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Loons Blast</title>
 </head>
 <body>
 
+<div class="container-fluid">
+        <div class="match-color .col-12 .col-sm-12 .col-md-12 col-lg-12 .col-xl-12 .col-xxl-12">
+            <br>
+            <h2>Pop This Color Of Balloon: <span id="matchColor"></span></h2>
 
-    <div class="match-color">
-        <h2>Pop This Color Of Balloon: <span id="matchColor"></span></h2>
-
-        <div class="score">
-            <h2>Score: <span id="score"></span></h2>
-    
+            <div class="score">
+                <h2>Score: <span id="score"></span></h2>
+        
+            </div>
+        
+        
         </div>
-    
-    
-    </div>
 
    
 
-    <div class="main">
-        <div class="row-one">
+    <div class="main col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" >
+        <div class="row-one col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div id="box1" onClick="balloon1()" class="balloon"> </div>
             <div id="box2" onClick="balloon2()" class="balloon"> </div>
             <div id="box3" onClick="balloon3()" class="balloon"> </div>
            
         </div>
 
-        <div class="row-two">
+        <div class="row-two col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div id="box4" onClick="balloon4()" class="balloon"> </div>
             <div id="box5" onClick="balloon5()" class="balloon"> </div>
             <div id="box6" onClick="balloon6()" class="balloon"> </div>
@@ -39,7 +42,7 @@
            
         </div>
 
-        <div class="row-three">
+        <div class="row-three col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div id="box7" onClick="balloon7()" class="balloon"> </div>
             <div id="box8" onClick="balloon8()" class="balloon"> </div>
             <div id="box9" onClick="balloon9()" class="balloon"> </div>
@@ -48,6 +51,7 @@
 
 
     </div>
+</div>
 
 
 
