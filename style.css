@@ -4,6 +4,7 @@ body{
     overflow-x: hidden;
 }
 
+
 .main{
     width: 80%;
     margin-left: auto;
@@ -21,9 +22,21 @@ body{
     flex-direction: row;
     margin-top: 20px;
 }
+.h{
+    color: #0891b2;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#score{
+   color: #a21caf;
+   
+}
 
 .score{
     margin: 0px auto;
+    color:  #16a34a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .row-one{
     display: flex;
@@ -61,6 +74,7 @@ body{
     z-index:10;
     cursor: pointer;
     border: black;
+   
 
   }
 
@@ -77,11 +91,31 @@ body{
   }
 
 
+
 #matchColor{
     border: 2px solid black;
     padding: 0px 20px;
     margin-left: 10px;
 }
+
+
+.after-over{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+    display: none;
+    
+}
+
+.after-over p{
+    font-size: 20px;
+    font-weight: bold;
+    color: crimson;
+}
+
+
 
 @media screen and (max-width:630px) {
      .balloon{

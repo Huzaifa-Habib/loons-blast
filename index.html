@@ -11,10 +11,16 @@
 </head>
 <body>
 
-<div class="container-fluid">
+    <div class="after-over" id="afterOver">
+        <h1>Game Over</h1>
+        <p>Your Total Score is : <span id="totalScore"></span></p>
+    </div>
+    
+
+<div class="container-fluid" id="mainBranch">
         <div class="match-color .col-12 .col-sm-12 .col-md-12 col-lg-12 .col-xl-12 .col-xxl-12">
             <br>
-            <h2>Pop This Color Of Balloon: <span id="matchColor"></span></h2>
+            <h2 class="h">Pop This Color Of Balloon: <span id="matchColor"></span></h2>
 
             <div class="score">
                 <h2>Score: <span id="score"></span></h2>
@@ -28,24 +34,24 @@
 
     <div class="main col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" >
         <div class="row-one col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <div id="box1" onClick="balloon1()" class="balloon"> </div>
-            <div id="box2" onClick="balloon2()" class="balloon"> </div>
-            <div id="box3" onClick="balloon3()" class="balloon"> </div>
+            <div id="box1" onClick="balloon('box1')" class="balloon"> </div>
+            <div id="box2" onClick="balloon('box2')" class="balloon"> </div>
+            <div id="box3" onClick="balloon('box3')" class="balloon"> </div>
            
         </div>
 
         <div class="row-two col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <div id="box4" onClick="balloon4()" class="balloon"> </div>
-            <div id="box5" onClick="balloon5()" class="balloon"> </div>
-            <div id="box6" onClick="balloon6()" class="balloon"> </div>
+            <div id="box4" onClick="balloon('box4')" class="balloon"> </div>
+            <div id="box5" onClick="balloon('box5')" class="balloon"> </div>
+            <div id="box6" onClick="balloon('box6')" class="balloon"> </div>
     
            
         </div>
 
         <div class="row-three col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <div id="box7" onClick="balloon7()" class="balloon"> </div>
-            <div id="box8" onClick="balloon8()" class="balloon"> </div>
-            <div id="box9" onClick="balloon9()" class="balloon"> </div>
+            <div id="box7" onClick="balloon('box7')" class="balloon"> </div>
+            <div id="box8" onClick="balloon('box8')" class="balloon"> </div>
+            <div id="box9" onClick="balloon('box9')" class="balloon"> </div>
         </div>
 
 
